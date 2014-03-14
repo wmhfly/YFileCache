@@ -3,11 +3,11 @@ Yii cache 缓存管理
 
 在CFileCache的基础上扩展，目的是要实现网站后台可视化管理。
 
-#安装
+###安装
 
 /extensions/cache/YFileCache.php
 
-#app配置
+###app配置
 
 	'components'=>array(
 		...
@@ -20,7 +20,7 @@ Yii cache 缓存管理
 		...
 	)
 
-#缓存操作
+###缓存操作
 > Yii::app()->cache->set('key','value')
 >
 > Yii::app()->cache->get('key')
@@ -29,11 +29,11 @@ Yii cache 缓存管理
 >
 > Yii::app()->cache->flush()
 
-#读取缓存清单列表
+###读取缓存清单列表
 
 $menu = Yii::app()->cache->cacheMenu;
 
-#cacheMenu数据参数说明
+###cacheMenu数据参数说明
 	
 	key => values
 	
