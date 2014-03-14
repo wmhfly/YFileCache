@@ -3,6 +3,8 @@ Yii cache 缓存管理
 
 在CFileCache的基础上扩展，目的是要实现网站后台可视化管理。
 
+![Yii cache manage view](http://wmhfly.com/uploads/ckfinder/userfiles/images/yii-cache.jpg)
+
 ###安装
 
 /extensions/cache/YFileCache.php
