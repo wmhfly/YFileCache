@@ -21,12 +21,13 @@ Yii cache 缓存管理
 	)
 
 #缓存操作
-
-> Yii::app()->cache->set('key',value);
-  Yii::app()->cache->get('key');
-  
-> Yii::app()->cache->delete('key');
-  Yii::app()->cache->flush();
+> Yii::app()->cache->set('key','value')
+>
+> Yii::app()->cache->get('key')
+>
+> Yii::app()->cache->delete('key')
+>
+> Yii::app()->cache->flush()
 
 #读取缓存清单列表
 
