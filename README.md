@@ -5,14 +5,12 @@
 Yii配置：
 
 'components'=>array(
-	...
 	'cache'=>array(
 		'class'=>'ext.cache.YFileCache',
 		'hashKey'=>false,
 		'keyPrefix'=>'',
 		'cachePath'=>'缓存路径'
 	)
-	...
 )
 
 
