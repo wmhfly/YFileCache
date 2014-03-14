@@ -1,7 +1,6 @@
-/**
- * Yii  缓存清单管理
- * link: wmhfly.com
- */
+# Yii cache 缓存管理
+
+Menu cache可视化管理，对yii的缓存进行扩展修改，实现后台可以查询缓存，自定义管理操作它们
 
 Yii配置：
 
