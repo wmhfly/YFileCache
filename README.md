@@ -4,22 +4,24 @@
 
 Yii配置：
 
-'components'=>array(
-	'cache'=>array(
-		'class'=>'ext.cache.YFileCache',
-		'hashKey'=>false,
-		'keyPrefix'=>'',
-		'cachePath'=>'缓存路径'
+	'components'=>array(
+		...
+		'cache'=>array(
+			'class'=>'ext.cache.YFileCache',
+			'hashKey'=>false,
+			'keyPrefix'=>'',
+			'cachePath'=>'缓存路径'
+		)
+		...
 	)
-)
 
 
 缓存操作:
 
 	Yii::app()->cache->set('key',value);
 	Yii::app()->cache->get('key');
-	Yii::app()->cache->delete('key');
 	
+	Yii::app()->cache->delete('key');
 	Yii::app()->cache->flush();
 
 读取缓存清单列表：
