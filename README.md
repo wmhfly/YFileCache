@@ -1,10 +1,9 @@
 # Yii cache 缓存管理
 
-Menu cache可视化管理，对yii的缓存进行扩展修改，实现后台可以查询缓存，自定义管理操作它们
+在CFileCache的基础上扩展，目的是要实现网站后台可视化管理
 
 Yii配置：
 
-// application components
 'components'=>array(
 	...
 	'cache'=>array(
@@ -15,6 +14,7 @@ Yii配置：
 	)
 	...
 )
+
 
 缓存操作:
 
