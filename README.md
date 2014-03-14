@@ -5,7 +5,7 @@ Yii cache 缓存管理
 
 #安装
 
-	/extensions/cache/YFileCache.php
+/extensions/cache/YFileCache.php
 
 #app配置
 
@@ -29,7 +29,8 @@ Yii cache 缓存管理
 > Yii::app()->cache->flush();
 
 #读取缓存清单列表：
-> $menu = Yii::app()->cache->cacheMenu;
+
+$menu = Yii::app()->cache->cacheMenu;
 
 #cacheMenu数据参数说明
 	
