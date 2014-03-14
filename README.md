@@ -8,7 +8,6 @@ Yii配置：
 // application components
 'components'=>array(
 	...
-
 	'cache'=>array(
 		'class'=>'ext.cache.YFileCache',
 		'hashKey'=>false,
